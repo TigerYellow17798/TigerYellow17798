@@ -181,8 +181,8 @@ if game.Workspace:FindFirstChild("detektorpart") then
                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 55, 5918)
                 wait(0.6)
                 --Stage7	
-                --game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 55, 6098)
-                --wait(0.6)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 55, 6098)
+                wait(0.6)
                 --game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 55, 6376)
                 --wait(0.6)
                 game.Players.LocalPlayer.Character.Head:Destroy()
