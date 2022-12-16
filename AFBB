@@ -1,0 +1,192 @@
+if not game.Workspace:FindFirstChild("detektorpart") then
+    local detektor = Instance.new("Part")
+    detektor.Name = "detektorpart"
+    detektor.Transparency = 1
+    detektor.Anchored = true
+    detektor.CanCollide = false
+    detektor.Size = Vector3.new(500, 1, 500)
+    detektor.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+    detektor.Parent = game.Workspace
+    --Bridge
+    if not game.Workspace:FindFirstChild("autofarmpart") then
+        local part = Instance.new("Part")
+        part.CFrame = CFrame.new(-57, 47, 7601)
+        part.Size = Vector3.new(10, 1, 50000)
+        part.Anchored = true
+        part.Name = "autofarmpart"
+        part.Parent = game.Workspace	
+    end
+    if not game.Workspace:FindFirstChild("autofarmpart2") then
+        local part2 = Instance.new("Part")
+        part2.CFrame = CFrame.new(-57, 47, 4070)
+        part2.Size = Vector3.new(10, 1, 50000)
+        part2.Anchored = true
+        part2.Name = "autofarmpart2"
+        part2.Parent = game.Workspace	
+    end
+    if not game.Workspace:FindFirstChild("autofarmpart3") then
+        local part3 = Instance.new("Part")
+        part3.CFrame = CFrame.new(-57, 47, 2080)
+        part3.Size = Vector3.new(10, 1, 50000)
+        part3.Anchored = true
+        part3.Name = "autofarmpart3"
+        part3.Parent = game.Workspace	
+    end
+    if not game.Workspace:FindFirstChild("autofarmpart4") then
+        local part4 = Instance.new("Part")
+        part4.CFrame = CFrame.new(-57, 47, 1291)
+        part4.Size = Vector3.new(10, 1, 50000)
+        part4.Anchored = true
+        part4.Name = "autofarmpart4"
+        part4.Parent = game.Workspace	
+    end
+    if not game.Workspace:FindFirstChild("autofarmpart5") then
+        local part5 = Instance.new("Part")
+        part5.CFrame = CFrame.new(-57, 47, 5907)
+        part5.Size = Vector3.new(10, 1, 50000)
+        part5.Anchored = true
+        part5.Name = "autofarmpart5"
+        part5.Parent = game.Workspace	
+    end
+end
+if game.Workspace:FindFirstChild("detektorpart") then
+    game.Workspace.detektorpart.Touched:Connect(function()
+        --Begin
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 863)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 1098)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 1291)
+        wait(0.6)
+        --Stage1
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 1535)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 1800)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 2080)
+        wait(0.6)
+        --Stage2
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 2310)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 2556)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 2847)
+        wait(0.6)
+        --Stage3
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 2989)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 3290)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 3629)
+        wait(0.6)
+        --Stage4
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 3783)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 4070)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 4401)
+        wait(0.6)
+        --Stage5
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 4518)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 4859)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 5168)
+        wait(0.6)
+        --Stage6
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 5313)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 5637)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 5918)
+        wait(0.6)
+        --Stage7
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 6098)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 6376)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 6696)
+        wait(0.6)
+        --Stage8
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 6862)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 7196)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 7460)
+        wait(0.6)
+        --Stage9
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 7601)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 7928)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 8230)
+        wait(0.6)
+        --End Stage
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 8387)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 8571)
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 8760)
+        wait(0.6)
+        --Truhlica
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, -362, 9487)
+        game.Workspace.BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.Open.Changed:Connect(function()
+            if game.Workspace.BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.Open.IsPlaying == true then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 863)
+                wait(0.6)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 1098)
+                wait(0.6)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 1291)
+                wait(0.6)
+                --Stage1
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 1535)
+                wait(0.6)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 1800)
+                wait(0.6)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 2080)
+                wait(0.6)
+                --Stage2
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 2310)
+                wait(0.6)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 2556)
+                wait(0.6)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 2847)
+                wait(0.6)
+                --Stage3
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 2989)
+                wait(0.6)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 3290)
+                wait(0.6)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 3629)
+                wait(0.6)
+                --Stage4
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 3783)
+                wait(0.6)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 4070)
+                wait(0.6)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 4401)
+                wait(0.6)
+                --Stage5
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 4518)
+                wait(0.6)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 4859)
+                wait(0.6)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 5168)
+                wait(0.6)
+                --Stage6
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 5313)
+                wait(0.6)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 5637)
+                wait(0.6)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 5918)
+                wait(0.6)
+                --Stage7	
+                --game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 6098)
+                --wait(0.6)
+                --game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 47, 6376)
+                --wait(0.6)
+                game.Players.LocalPlayer.Character.Head:Destroy()
+            end
+        end)
+    end)
+end
