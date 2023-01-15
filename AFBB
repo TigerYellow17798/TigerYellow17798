@@ -27,7 +27,7 @@ AutofarmbyDominik.ResetOnSpawn = false
 
 Frame.Parent = AutofarmbyDominik
 Frame.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
-Frame.Position = UDim2.new(0.401366353, 0, 0.0410742499, 0)
+Frame.Position = UDim2.new(0.413977623, 0, 0.0268562417, 0)
 Frame.Size = UDim2.new(0, 230, 0, 75)
 
 TextLabel.Parent = Frame
