@@ -256,6 +256,16 @@ if game.Workspace:FindFirstChild("detektorpart") then
 	wait(0.6)]]
 	--Truhlica
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, -362, 9487)
+	--Casovac do resetu ak sa truhlica bugne
+	local waitTime = 10
+	local currentTime = 0
+
+	while currentTime < waitTime do
+    		currentTime = currentTime + 1
+    		wait(1)
+	end
+	print("Wait time has reached "..waitTime)
+	game.Players.LocalPlayer.Character.Head:Destroy()
     end)
 end
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
