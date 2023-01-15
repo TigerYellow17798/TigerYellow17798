@@ -94,9 +94,9 @@ if not game.Workspace:FindFirstChild("detektorpart") then
         part5.Parent = game.Workspace	
     end
 end
-local player = game.Players.LocalPlayer.Character.HumanoidRootPart
 if game.Workspace:FindFirstChild("detektorpart") then
     game.Workspace.detektorpart.Touched:Connect(function()
+    	local player = game.Players.LocalPlayer.Character.HumanoidRootPart
         --Begin
 	player.CFrame = CFrame.new(-57, 55, 863)
 	wait(0.6)
