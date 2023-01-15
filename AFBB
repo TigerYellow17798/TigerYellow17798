@@ -1,3 +1,47 @@
+--[[
+██████╗░░█████╗░███╗░░░███╗██╗███╗░░██╗██╗██╗░░██╗
+██╔══██╗██╔══██╗████╗░████║██║████╗░██║██║██║░██╔╝
+██║░░██║██║░░██║██╔████╔██║██║██╔██╗██║██║█████═╝░
+██║░░██║██║░░██║██║╚██╔╝██║██║██║╚████║██║██╔═██╗░
+██████╔╝╚█████╔╝██║░╚═╝░██║██║██║░╚███║██║██║░╚██╗
+╚═════╝░░╚════╝░╚═╝░░░░░╚═╝╚═╝╚═╝░░╚══╝╚═╝╚═╝░░╚═╝
+]]
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local AutofarmbyDominik = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+
+--Properties:
+
+AutofarmbyDominik.Name = "Autofarm by Dominik"
+AutofarmbyDominik.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+AutofarmbyDominik.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = AutofarmbyDominik
+Frame.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+Frame.Position = UDim2.new(0.401366353, 0, 0.0410742499, 0)
+Frame.Size = UDim2.new(0, 230, 0, 75)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Position = UDim2.new(0.063145034, 0, 0.156666666, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "Autofarm by Dominik"
+TextLabel.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel.TextSize = 25.000
+
+UICorner.Parent = TextLabel
+
+UICorner_2.Parent = Frame
+
 if not game.Workspace:FindFirstChild("detektorpart") then
     local detektor = Instance.new("Part")
     detektor.Name = "detektorpart"
