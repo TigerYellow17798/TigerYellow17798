@@ -236,7 +236,7 @@ if game.Workspace:FindFirstChild("detektorpart") then
 	--Stage8
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 55, 6862)
 	wait(0.6)
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 55, 7196)
+	--[[game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 55, 7196)
 	wait(0.6)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 55, 7460)
 	wait(0.6)
@@ -253,7 +253,7 @@ if game.Workspace:FindFirstChild("detektorpart") then
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 55, 8571)
 	wait(0.6)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, 55, 8760)
-	wait(0.6)
+	wait(0.6)]]
 	--Truhlica
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57, -362, 9487)
     end)
