@@ -417,7 +417,7 @@ if not game.Workspace:FindFirstChild("detektorpart") then
     chestactivator.Parent = game.Lighting
 	--NotificationSounds
 	local sound1 = Instance.new("Sound")
-	sound1.Volume = 0.3
+	sound1.Volume = 0
 	sound1.SoundId = "rbxassetid://261072074"
 	sound1.Parent = game.SoundService
 end
